@@ -979,7 +979,7 @@ GameObject:
   - component: {fileID: 872647338}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1047,6 +1047,7 @@ MonoBehaviour:
   hitCollider: {fileID: 872647336}
   rig: {fileID: 8008195370137100611}
   animator: {fileID: 8008195370127610499}
+  collide: 0
 --- !u!1 &8008195370137100609
 GameObject:
   m_ObjectHideFlags: 0
