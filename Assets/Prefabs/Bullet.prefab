@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5481636106131925565}
   - component: {fileID: 5481636106131925538}
   - component: {fileID: 9152302762505280897}
-  m_Layer: 0
+  - component: {fileID: -8401863362391169882}
+  m_Layer: 6
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,6 +60,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fa28d093e3604408ac6410e6135544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bloodSplatter: {fileID: 0}
+  dustSplatter: {fileID: 0}
+  speed: 5
+--- !u!54 &-8401863362391169882
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5481636106131925564}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1001 &5481636105323153493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69,6 +89,18 @@ PrefabInstance:
     - target: {fileID: 1000011023395326, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
       propertyPath: m_Name
       value: Bullet1(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011023395326, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011260505556, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012647698792, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4000012716797116, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
       propertyPath: m_RootOrder
@@ -112,6 +144,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012716797116, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 95000011255366568, guid: 2ce15a1900ef14a459f78260cd05a3dc,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
