@@ -11,6 +11,8 @@ public class RagdollOnCollide : MonoBehaviour
     Rigidbody[] limbsRigidbodies;
     public bool collide;
     bool ragdolling;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,7 @@ public class RagdollOnCollide : MonoBehaviour
             GameController.Instance.AddTime(2);
             GameController.Instance.UpdateScore();
             Destroy(gameObject, 8);
+            GetComponent<AudioSource>().Play();
         }
     }
     public void GetRagdollBits()
