@@ -6,13 +6,14 @@ public class Projectile : MonoBehaviour
 {
     public GameObject bloodSplatter;
     public GameObject dustSplatter;
-
-    public Rigidbody rb;
     public float speed = 5;
+
+    Rigidbody rb;
 
     void Start()
     {
-        rb.AddRelativeForce(Vector3.forward * speed, ForceMode.VelocityChange);
+        rb = GetComponent<Rigidbody>();
+        rb?.AddRelativeForce(Vector3.forward * speed, ForceMode.VelocityChange);
     }
 
     void Update()

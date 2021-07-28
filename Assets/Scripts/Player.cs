@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        float rTriggerTouch = OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger, OVRInput.Controller.RTouch);
+        float rTriggerTouch = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch);
         bool reload = OVRInput.Get(OVRInput.Button.One, OVRInput.Controller.RTouch);
 
         if (rTriggerTouch > 0.1f)

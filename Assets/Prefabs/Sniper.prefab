@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2124035222067592600}
   - component: {fileID: 5247970316671771635}
   - component: {fileID: 5471294985393538713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trigger_Cube.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 3388499082530867552}
   - component: {fileID: 7845497299227081234}
   - component: {fileID: 6353601232170245192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontRail_Cube.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 4631849707607814235}
   - component: {fileID: 5016779457449547460}
   - component: {fileID: 7710979833341811602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bolts.001_Cylinder.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 4032171571001064920}
   - component: {fileID: 3910535977442856584}
   - component: {fileID: 390875404794831896}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RailScale_Cube.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 7814042578142255790}
   - component: {fileID: 1227807090003730362}
   - component: {fileID: 6622734036554352049}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShellEjectorSphere_Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 2161627385344324649}
   - component: {fileID: 6422415029630313502}
   - component: {fileID: 8821145897490385377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ButtBack_Cube.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 8663791836395726991}
   - component: {fileID: 5120448442375855321}
   - component: {fileID: 3942342834275493102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 3702145018795285116}
   - component: {fileID: 6776557980006351090}
   - component: {fileID: 4282178397829909751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barrel_Cylinder.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 3568338523139699588}
   - component: {fileID: 9023695517773394665}
   - component: {fileID: 2493964707707889656}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BarrettTextt_Text.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -741,7 +741,7 @@ GameObject:
   - component: {fileID: 8330068019748831718}
   - component: {fileID: 274331674970287320}
   - component: {fileID: 7470578130760120148}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +840,7 @@ GameObject:
   - component: {fileID: 2066894949241439268}
   - component: {fileID: 7285483663649190520}
   - component: {fileID: 7758649405946311166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShellEjector_Cylinder.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -922,7 +922,7 @@ GameObject:
   - component: {fileID: 7096535755861607829}
   - component: {fileID: 7038840880634777448}
   - component: {fileID: 6791225991173886333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MagzineEjector_Cube.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1003,7 +1003,7 @@ GameObject:
   - component: {fileID: 5648538859913314558}
   - component: {fileID: 3883747252296178655}
   - component: {fileID: 7709346889007026491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Handle_Cube.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1084,7 +1084,7 @@ GameObject:
   - component: {fileID: 2551309636800293414}
   - component: {fileID: 931433210280524028}
   - component: {fileID: 1023842246504549423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body_Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1163,7 +1163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2503639498994911074}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BarrelTransform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 1004684901444664122}
   - component: {fileID: 3116063444467735132}
   - component: {fileID: 5030806703086296621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackRail_Cube.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1276,7 +1276,7 @@ GameObject:
   - component: {fileID: 1525025658815224753}
   - component: {fileID: 8000667194573632629}
   - component: {fileID: 8927345456437869430}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bolts_Cylinder.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1357,7 +1357,7 @@ GameObject:
   - component: {fileID: 1628418046327440753}
   - component: {fileID: 6979033649912511523}
   - component: {fileID: 2724276958489370940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Magzine_Cube.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1439,7 +1439,7 @@ GameObject:
   - component: {fileID: 7826327535571310054}
   - component: {fileID: 4202411003421707765}
   - component: {fileID: 7621758873961710183}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TopScope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1536,7 +1536,7 @@ GameObject:
   - component: {fileID: 4192472261060822742}
   - component: {fileID: 8026376540111997165}
   - component: {fileID: 8562368009654313376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ButtStock_Cube.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1617,7 +1617,7 @@ GameObject:
   - component: {fileID: 4482125160790606090}
   - component: {fileID: 8628272238703588397}
   - component: {fileID: 7286211633116690964}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Scope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1698,7 +1698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9059806671377457328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BarrettMRAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1752,7 +1752,7 @@ GameObject:
   - component: {fileID: 2939641801460989193}
   - component: {fileID: 7893083687080565739}
   - component: {fileID: 11838956180816962}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1847,7 +1847,7 @@ GameObject:
   - component: {fileID: 8691315628536536991}
   - component: {fileID: 4781039269886803264}
   - component: {fileID: 3396560969092336356}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1923,7 +1923,7 @@ GameObject:
   - component: {fileID: 7294484227841239971}
   - component: {fileID: 205050070046012728}
   - component: {fileID: 4980059766093040519}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2018,7 +2018,7 @@ GameObject:
   - component: {fileID: 1033156093915152152}
   - component: {fileID: 1132883336826850200}
   - component: {fileID: 8541862366007372522}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ButtDe_Cube.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2098,7 +2098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8455609624630716464}
   - component: {fileID: -6180760519844879480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sniper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2137,6 +2137,7 @@ MonoBehaviour:
   projectile: {fileID: 9152302762505280897, guid: b419ddfe5380b5247a42532082c46a81,
     type: 3}
   magazineCount: 1
+  shootSpeed: 1
 --- !u!1 &8731304606011526354
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,7 +2149,7 @@ GameObject:
   - component: {fileID: 7695921450146841199}
   - component: {fileID: 3149820840330769449}
   - component: {fileID: 1482971188788713723}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HandleScales_Cube.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2230,7 +2231,7 @@ GameObject:
   - component: {fileID: 6391952186409033575}
   - component: {fileID: 1481293285306346138}
   - component: {fileID: 4885176881749944712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
