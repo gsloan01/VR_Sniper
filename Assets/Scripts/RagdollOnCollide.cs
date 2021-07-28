@@ -27,9 +27,12 @@ public class RagdollOnCollide : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        //if()
+        if(collision.gameObject.tag == "Bullet")
         {
-
+            collide = true;
+            GameController.Instance.AddTime(2);
+            GameController.Instance.UpdateScore();
+            Destroy(gameObject, 8);
         }
     }
     public void GetRagdollBits()
