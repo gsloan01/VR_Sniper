@@ -2136,6 +2136,8 @@ MonoBehaviour:
   barrelTransform: {fileID: 2503639498994911074}
   projectile: {fileID: 9152302762505280897, guid: b419ddfe5380b5247a42532082c46a81,
     type: 3}
+  muzzleFlash: {fileID: 21306788436233014, guid: 0659778ffafd42e42a384e92e6a2e23d,
+    type: 3}
   magazineCount: 1
   shootSpeed: 1
 --- !u!1 &8731304606011526354

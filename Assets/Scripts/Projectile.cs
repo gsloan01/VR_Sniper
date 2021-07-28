@@ -32,9 +32,9 @@ public class Projectile : MonoBehaviour
 
         if (effect != null)
         {
-            GameObject go = Instantiate(effect, transform.position, Quaternion.identity);
-            Destroy(go, 0.5f);
+            GameObject effectObject = Instantiate(effect, transform.position, Quaternion.identity);
+            Destroy(effectObject, 0.5f);
         }
-        Destroy(gameObject, 0.5f);
+        Destroy(gameObject, 0.25f);
     }
 }

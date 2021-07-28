@@ -6,6 +6,7 @@ public class Gun : MonoBehaviour
 {
     public Transform barrelTransform;
     public Projectile projectile;
+    public GameObject muzzleFlash;
     public int magazineCount = 0;
     public int ammoInMag { get; set; }
     public float shootSpeed = 1;
@@ -33,6 +34,11 @@ public class Gun : MonoBehaviour
                 {
                     Instantiate(projectile, barrelTransform.position, barrelTransform.rotation);
                     //ammoInMag--;
+                    if (muzzleFlash != null)
+                    {
+                        GameObject flash = Instantiate(muzzleFlash, barrelTransform.position, barrelTransform.rotation);
+                        Destroy(flash, 0.5f);
+                    }
                     shootTimer = shootSpeed;
                 }
             }
