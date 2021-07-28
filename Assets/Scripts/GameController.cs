@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour
     public static GameController Instance { get { return instance; } }
     static GameController instance;
     public float score;
-    public float timeBetweenKills = 10;
+    public float timeBetweenKills = 25;
     public TMP_Text scoreTracker;
     public TMP_Text killTimer;
     public List<GameObject> enemies = new List<GameObject>();

@@ -25,7 +25,7 @@ public class Spawner : MonoBehaviour
                 timer += Time.deltaTime;
                 if (timer >= interval)
                 {
-                    spawned = Instantiate<GameObject>(enemy, transform.position, Quaternion.identity);
+                    spawned = Instantiate<GameObject>(enemy, transform.position, transform.rotation);
                     GameController.Instance.enemies.Add(spawned);
                 }
             }

@@ -64,7 +64,7 @@ MonoBehaviour:
     type: 3}
   dustSplatter: {fileID: 1450638143650814, guid: 9fe1ddc0da27cb44ebeeb8c2befa68bd,
     type: 3}
-  speed: 100
+  speed: 150
 --- !u!54 &-8401863362391169882
 Rigidbody:
   m_ObjectHideFlags: 0
