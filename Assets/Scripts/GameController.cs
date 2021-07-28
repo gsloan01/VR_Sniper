@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     public TMP_Text scoreTracker;
     public TMP_Text killTimer;
     public List<GameObject> enemies = new List<GameObject>();
+    public GameObject intro;
 
     float timer;
 
@@ -21,6 +22,7 @@ public class GameController : MonoBehaviour
     {
         instance = this;
         timer = timeBetweenKills;
+        killTimer.text = "Pending " + timer.ToString() + " s";
     }
     private void Update()
     {
@@ -39,6 +41,11 @@ public class GameController : MonoBehaviour
 
     public void UpdateScore(float change = 1.0f)
     {
+        if (score == 0)
+        {
+            playing = true;
+            intro.SetActive(false);
+        }
         scoreTracker.text = (++score).ToString() + "\n targets elimated";
     }
     public void AddTime(float change)

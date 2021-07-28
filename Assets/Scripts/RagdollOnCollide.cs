@@ -32,6 +32,7 @@ public class RagdollOnCollide : MonoBehaviour
             collide = true;
             GameController.Instance.AddTime(2);
             GameController.Instance.UpdateScore();
+            GetComponent<AudioSource>()?.Play();
             Destroy(gameObject, 8);
         }
     }
@@ -65,7 +66,7 @@ public class RagdollOnCollide : MonoBehaviour
             r.isKinematic = true;
         }
         animator.enabled = true; 
-        hitCollider.enabled = false;
+        hitCollider.enabled = true;
         GetComponent<Rigidbody>().isKinematic = true;
     }
 }
