@@ -20,7 +20,6 @@ public class Player : MonoBehaviour
         if (rTriggerTouch > 0.1f)
         {
             sniper?.Shoot();
-            Debug.Log("Is shooting" + rTriggerTouch);
         }
         else if (reload)
         {

@@ -28,6 +28,7 @@ public class Projectile : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             if (bloodSplatter != null) effect = bloodSplatter;
+            Debug.Log("Hit enemy");
         }
 
         if (effect != null)
